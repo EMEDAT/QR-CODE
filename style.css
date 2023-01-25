@@ -44,9 +44,10 @@ img {
 
 .wrote {
     font-family: sans-serif;
-    font-size: 17px;
-    text-align: center;
-    margin: 0 30px 0 30px;
+        font-size: .95rem;
+        text-align: center;
+        margin: 0 30px 0 30px;
+        color: #97979f;
 }
 
 /* for mobile devices of width = 375px */
@@ -98,8 +99,9 @@ img {
     
     .wrote {
         font-family: sans-serif;
-        font-size: 17px;
+        font-size: .95rem;
         text-align: center;
         margin: 0 30px 0 30px;
+        color: #97979f;
     }
 }
