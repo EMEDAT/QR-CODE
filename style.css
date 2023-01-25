@@ -63,7 +63,7 @@ img {
         width: 200px;
         height: 250px;
         margin: 0 auto;
-        margin-top: 70px;
+        margin-top: 90px;
         margin-left: 38px;
         justify-content: center;
         align-content: center;
@@ -73,7 +73,7 @@ img {
         border-radius: 20px;
         background-color: hsl(0, 0%, 100%);
         width: 300px;
-        height: 525px;
+        height: 500px;
         
     
     }
@@ -90,7 +90,7 @@ img {
     .write {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
         margin: 25px 25px;
     
