@@ -63,9 +63,8 @@ img {
     .container {
         width: 300px;
         height: 500px;
-        margin: 0 auto;
         margin-top: 45px;
-        margin-left: 20px;
+        margin-left: 37px;
         display: block;
         justify-content: center;
         align-content: center;
