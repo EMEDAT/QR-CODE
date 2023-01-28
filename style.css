@@ -12,6 +12,7 @@ body {
     margin-top: 100px;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 }
 
 .set {
@@ -44,27 +45,28 @@ img {
 
 .wrote {
     font-family: sans-serif;
-        font-size: .95rem;
-        text-align: center;
-        margin: 0 30px 0 30px;
-        color: #97979f;
+    font-size: .95rem;
+    text-align: center;
+    margin: 0 30px 0 30px;
+    color: #97979f;
 }
 
 /* for mobile devices of width = 375px */
-@media screen and (min-width: 375px) and (orientation: portrait) {
+@media screen and (max-width: 375px) {
     
     body {
         width: 375px;
-        margin: 0px;
+        margin: 0 auto;
         background-color: hsl(212, 45%, 89%); 
     }
     
     .container {
-        width: 200px;
-        height: 250px;
+        width: 300px;
+        height: 500px;
         margin: 0 auto;
-        margin-top: 90px;
-        margin-left: 38px;
+        margin-top: 45px;
+        margin-left: 20px;
+        display: block;
         justify-content: center;
         align-content: center;
     }
@@ -73,17 +75,15 @@ img {
         border-radius: 20px;
         background-color: hsl(0, 0%, 100%);
         width: 300px;
-        height: 500px;
-        
-    
+        height: 480px;
     }
     
     img {
-        width: 250px;
-        height: 270px;
+        width: 270px;
+        height: 280px;
         border-radius: 15px;
-        margin-left: 25px;
-        margin-top: 25px;
+        margin-left: 15px;
+        margin-top: 15px;
         
     }
     
@@ -99,7 +99,7 @@ img {
     
     .wrote {
         font-family: sans-serif;
-        font-size: .95rem;
+        font-size: 14px;
         text-align: center;
         margin: 0 30px 0 30px;
         color: #97979f;
