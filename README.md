@@ -1,2 +1,2 @@
-# QR-CODE
-A RESPONSIVE DESIGN OF A QR CODE
+# Qr-code
+ My responsive QR Code design for mobile and desktop
